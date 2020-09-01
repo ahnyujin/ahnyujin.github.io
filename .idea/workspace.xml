@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598964033660</updated>
       <workItem from="1598964034715" duration="6625000" />
-      <workItem from="1598971885314" duration="6495000" />
+      <workItem from="1598971885314" duration="7719000" />
     </task>
     <servers />
   </component>
@@ -95,10 +94,10 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.798@0.23.1440.798" timestamp="1598977428098" />
-    <state x="418" y="175" width="604" height="490" key="find.popup" timestamp="1598977265656">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state x="418" y="174" width="604" height="490" key="find.popup" timestamp="1598980232676">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="418" y="174" width="604" height="490" key="find.popup/0.23.1440.798@0.23.1440.798" timestamp="1598977182300" />
+    <state x="418" y="174" width="604" height="490" key="find.popup/0.23.1440.798@0.23.1440.798" timestamp="1598980232676" />
     <state x="418" y="175" width="604" height="490" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1598977265656" />
   </component>
 </project>
