@@ -10,7 +10,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="" />
+    <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/39/d692381eeb06c11185fe1126299bd40de54ce38c4ece3111491f926bdf23dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/43/d33ece415ced6dc5fd4620e95890ad9bce60eff65d2a9d419c758473c6e995" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/4f/b9713c4ffc94138ed7c07809bba8910d08e4ee493628e443fc83ad5134c1df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/63/7e252fa8460c2278df772e6dfbf4934329e2f03a9174070b70d0883886b435" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/64/415bb89c72690689066a644c02dc1765220435c5afc43641ea8ae770a61c01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ca/b8b278c7e75237af7ad8243b9c3bcb930892a05977cdc36c8f5e36f4599f7b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/fd/aa4200cef2544ec568b25970b3a49cf9b4f3d7015485506ccda914caf9c5b9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-01-welcome-to-jekyll.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/minima-social-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/jekyll/update/2020/09/01/welcome-to-jekyll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.markdown" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +69,21 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +92,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598964033660</updated>
-      <workItem from="1598964034715" duration="4360000" />
+      <workItem from="1598964034715" duration="6625000" />
+      <workItem from="1598971885314" duration="4884000" />
     </task>
     <servers />
   </component>
@@ -69,12 +110,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="174" width="604" height="490" key="find.popup" timestamp="1598968512417">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state x="418" y="175" width="604" height="490" key="find.popup" timestamp="1598977265656">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
-    <state x="418" y="174" width="604" height="490" key="find.popup/0.23.1440.798@0.23.1440.798" timestamp="1598968512417" />
-    <state x="418" y="175" width="604" height="490" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1598967319618" />
+    <state x="418" y="174" width="604" height="490" key="find.popup/0.23.1440.798@0.23.1440.798" timestamp="1598977182300" />
+    <state x="418" y="175" width="604" height="490" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1598977265656" />
   </component>
 </project>
