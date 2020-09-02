@@ -3,7 +3,7 @@ title: Enterprise Programming 1
 author: Yujin Ahn
 date: 2020-09-02 13:45:00 +0900
 categories: [2020FallSemester, EnterpriseProgramming]
-tags: [etc]     # TAG names should always be lowercase
+tags: [web]     # TAG names should always be lowercase
 ---
 
 ## 앞으로 공부할 것
@@ -11,7 +11,7 @@ tags: [etc]     # TAG names should always be lowercase
 1. Java Script
 2. React
 3. AWS Lambda
-    - https://serverless-stack.com/#table-of-contents
+    - [https://serverless-stack.com/#table-of-contents](https://serverless-stack.com/#table-of-contents)
 4. Authentication
 
 ## OT
