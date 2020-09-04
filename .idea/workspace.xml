@@ -12,48 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/19/e2819b19112cf1fd41a5eedc7066b407c448fcf56a5d76ae8aafe3c0e1558b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/27/fe18a5d716778a76dfe780928d5dd9ee4c8da367950819547b2a8871ca7897" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/38/0d75fe654ea1946c7cf15edc5b3cf31446459686957f2d298372af84d1afb4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/46/f1085895b2deee0e76edd483fd09e485ef95bca0fcb3f0df44822b3c9b63b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/49/5b1ba30d63aa78a65eced52a5ec7e65e39cf8f9b61711ed8d78189c0937573" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/50/55f077c6404a840baa99d14c5817b2b1bb506dd06bcfec9fd54b483a5d84a6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/59/4de6650e143c06d17c0f2ef5d36f34621be2ef313a538ed58c825093b16816" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/5b/68d4e80d895eec61fa698f023875238496c57fc4c46f9b39db095b1f0c0dbb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/5e/8a1d7b30b2881cd246ae593765697436d2c21af0051464cf8e22489ee87a97" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/6f/d78e8ccea77e4818e07b3bfc2e295e3b7f24ba964830e1556c3fe44922b354" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/79/0c86269f4ee23bd7fefdc45fb474f07f483b779df02b77240dbef8e35cef6b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/7f/2fc9efff87de870bc20dfea88b8d9d9e0d27004a7c8ee95e01bb4254ab41a7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/8e/ab9af5b05da31c9d419dff3c84003be91fb9485223659ae97d2f12f3cf8d59" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/96/767366a7a3af7228db7d3b27cdb2b9c1a1bba5d13d24cc89dc3a8b1e3b2c4d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/a1/5d12503bf00f654df068bd9e5af6259db1703ac04a61365b991ce52557e5ea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/bb/1fe9499a46c604147e2581c6aa1a7d3de5af18fa18586b2847ac48a0a9e9ea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/d0/0eca1bae6742803906ab42a831e8b5396d15b6573ea13c139ec31631208ec1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e7/b47c990322a685f9ccbf612e3bff15637a7c3c13e709cda1ad38375baeb888" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ee/b2f73dcf0ea52561b0e9bb0ddd246502889c6cb65cfb43d0ac9766a68fd754" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/f0/1874a6af60c93f2a850633468c8871423ca472a82bcd546727f828460b467a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/ff/df99c90df2dfcbfd34de3378233dcb50449f7b742a342c3907542663bf99ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-02-enterprise-programming-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-02-enterprise-programming-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-02-spring-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-02-spring-demo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/img/favicons/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/img/favicons/browserconfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/img/favicons/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/img/favicons/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/data/cache-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/data/cache-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/data/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/data/search.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/posts/customize-the-favicon/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/posts/getting-started/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/posts/text-and-typography/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/posts/text-and-typography/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/posts/write-a-new-post/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_site/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tabs/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tabs/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tabs/archives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tabs/archives/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tabs/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tabs/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tabs/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tabs/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-02-thread-lock-1-thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-02-thread-lock-1-thread.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,15 +51,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,7 +74,9 @@
       <workItem from="1598964034715" duration="6625000" />
       <workItem from="1598971885314" duration="7719000" />
       <workItem from="1599022616891" duration="1613000" />
-      <workItem from="1599028680517" duration="4280000" />
+      <workItem from="1599028680517" duration="6022000" />
+      <workItem from="1599207931406" duration="4670000" />
+      <workItem from="1599216924978" duration="7092000" />
     </task>
     <servers />
   </component>
