@@ -12,7 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-02-thread-lock-1-thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-02-thread-lock-1-thread.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-08-08-text-and-typography.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-02-spring-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-02-spring-demo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-04-thread-lock-2-lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-04-thread-lock-2-lock.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +53,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,7 +80,8 @@
       <workItem from="1599022616891" duration="1613000" />
       <workItem from="1599028680517" duration="6022000" />
       <workItem from="1599207931406" duration="4670000" />
-      <workItem from="1599216924978" duration="7092000" />
+      <workItem from="1599216924978" duration="9737000" />
+      <workItem from="1599652539515" duration="10543000" />
     </task>
     <servers />
   </component>
@@ -96,6 +101,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="369" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599743787432">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="369" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1599743787432" />
+    <state x="660" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599739793017">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="660" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1599739793017" />
     <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598977428098">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
