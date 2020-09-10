@@ -12,9 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-08-08-text-and-typography.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-02-spring-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-02-spring-demo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-04-thread-lock-2-lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-04-thread-lock-2-lock.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <workItem from="1599028680517" duration="6022000" />
       <workItem from="1599207931406" duration="4670000" />
       <workItem from="1599216924978" duration="9737000" />
-      <workItem from="1599652539515" duration="10543000" />
+      <workItem from="1599652539515" duration="14763000" />
     </task>
     <servers />
   </component>
