@@ -12,6 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-08-rest.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-08-rest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-11-network-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-11-network-demo.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +51,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,7 +65,9 @@
       <workItem from="1599028680517" duration="6022000" />
       <workItem from="1599207931406" duration="4670000" />
       <workItem from="1599216924978" duration="9737000" />
-      <workItem from="1599652539515" duration="14763000" />
+      <workItem from="1599652539515" duration="15099000" />
+      <workItem from="1599995748810" duration="1435000" />
+      <workItem from="1599997351385" duration="1767000" />
     </task>
     <servers />
   </component>

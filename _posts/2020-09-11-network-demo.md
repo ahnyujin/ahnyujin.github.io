@@ -71,17 +71,12 @@ tags: [network]     # TAG names should always be lowercase
 
 # http
 HTTP(Hypertext Transfer Protocol)는 웹에서 데이터를 주고 받기 위한 서버/클라이언트 모델 사용하는 프로토콜
-## http 버전별 특
+## http 버전별 특징
 - http/1.0 요청을 보낼때마다 연결을 했다 끊었다.
 - http/1.1 keepalive기능 추가
   - 연결을 한번 수립하면 데이터 교환을 모두 마칠 때 까지 유지하고, 데이터 교환을 모두 끝내면 연결을 끊는 구조
   - 요청을 순서대로 처리하는 특징이 있었음
 - http/2 순서대로 응답을 반환하지 않아도 되기 때문에 콘텐츠를 빨리 표시할 수 있다.
-
-# 추가할 내용
-1. TCP와 UDP 비교
-2. 웹통신의 큰 흐름
-3. HTTP와 HTTPS
 
 ## 출처
 - [OSI 7 계층이란?, OSI 7 계층을 나눈 이유](https://shlee0882.tistory.com/110)
