@@ -11,11 +11,20 @@ tags: [network]     # TAG names should always be lowercase
 - 인터넷
   - TCP/IP 프로토콜을 사용하는 세계 최대 규모의 네트워크
   - 전 세계의 컴퓨터를 서로 연결하여 정보를 교환할 수 있도록 만든 하나의 거대한 컴퓨터 통신망이다.
+  
+  | 이름 | 프로토콜 | 포트 | 기능 |
+  |---|:---:|---:|---:|
+  | `WWW` | HTTP | 80 | 웹서비|
+  | `Email` | SMTP/POP3/IMAP | 25/110/114 | 이메일 서비스|
+  | `FTP` | FTP |21 |파일 전송 서비스|
+  | `DNS` | TCP/UDP | 53 |네임 서비스|
+  | `NEWS` | NNTP | 119 |인터넷 뉴스 서비스|
+  
 - ISP(Internet Service Provider)
   - 인터넷에 접속하는 수단을 제공하는 주체다. 일반 사용자, 기업체, 기관, 단체 등이 인터넷에 접속하여 인터넷을 이용할 수 있도록 돕는 사업자이다. (KT, U+ )
 - DNS(Domain Name System)
   - url을 ip주소로 변환하는 서비스(시스템)
-  
+
 ## LAN과 WAN
 - LAN (Local Area Network : 근거리 통신망)
   - 비교적 가까운 거리의 집, 사무실 등 가까운 지역을 연결하는 네트워크이다.
@@ -51,7 +60,7 @@ tags: [network]     # TAG names should always be lowercase
   - 데이터가 통신하기 위한 논리적인 연결
   - 양 끝단의 응용 프로세스가 통신을 관리하기 위한 방법 제공
 - 4 Layer - Transport Layer
-  - TCP또는 UDP 프로토콜 이용해 포트 열기
+  - TCP 또는 UDP 프로토콜 이용해 포트 열기
   - 패킷생성 및 전송
 - 3 Layer - Network Layer
   - 경로를 선택하고 주소(IP)를 정하여 경로에 따라 패킷을 전달해주는 역할

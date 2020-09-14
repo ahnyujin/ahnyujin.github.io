@@ -17,18 +17,29 @@ tags: [network]     # TAG names should always be lowercase
 
 # HTTP Method
 
-- POST
-- GET
-- PUT
-- DELETE
+- GET : 정보를 요청하기 위해 사용 (SELECT)
+- POST : 정보를 밀어넣기 위해 사용 (INSERT)
+- PUT : 정보를 업데이트하기 위해 사용 (UPDATE)
+- DELETE : 정보를 삭제하기 위해 사용 (DELETE)
+- HEAD : (HTTP)헤더 정보만 요청. // 해당 자원이 존재하는지 혹은 서버에 문제가 없는지를 확인하는 용
+- OPTIONS : 웹서버가 지원하는 메서드의 종류를 요청
+- TRACE : 클라이언트의 요청을 그대로 반환. // 서버 상태를 확인하기 위한 목적
 
 - PUT vs POST
 - PATCH vs PUT
 
 # HTTP와 HTTPS
-HTTP (Hypertext Transfer Protocol)
-
-HTTPS (Hypertext Transfer Protocol Secure)
+### HTTP (Hypertext Transfer Protocol)
+- 서버와 클라이언트가 인터넷상에서 데이터를 주고 받기 위한 프로토콜
+- **Stateless** (무상태) 프로토콜 : 응답 후 연결을 끊어버리기 때문에 클라이언트가 바로 다음것을 요청한다 하더라도 이전 상황 알 수 없음.
+  - 장점 : 불특정 다수를 대상으로 하는 서비스에 적합하다.
+  - 단점 : 클라이언트가 이전에 뭘 했는지 알 수 없다. ( 쿠키와 같은 기술 등장 )
+### URL
+- URL (Uniform Resource Locator)
+  - 웹상에서 문서와 다른 자원들의 위치를 나타내기 위해 사용
+  - 프로토콜 종류://IP 주소 또는 도메인/ 자원의 위치
+  - 물리적인 컴퓨터를 찾은 후에 해당 컴퓨터 안에 등장하는 소프트웨어 서버를 찾기 위해서는 포트값이 필요하다.
+### HTTPS (Hypertext Transfer Protocol Secure)
 
 SSL(Secure Socket Layer)을 사용하는 통신 규약
 1. 제3자가 보지 못하게 한다
