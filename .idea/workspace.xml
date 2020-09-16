@@ -12,8 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-11-network-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-11-network-demo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-13-network-demo2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-13-network-demo2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-04-jpa.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-04-jpa.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-10-servlet.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-10-servlet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-14-web-server-and-was.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-14-web-server-and-was.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +52,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,7 +90,10 @@
       <workItem from="1599652539515" duration="15099000" />
       <workItem from="1599995748810" duration="1435000" />
       <workItem from="1599997351385" duration="2361000" />
-      <workItem from="1600077098681" duration="9246000" />
+      <workItem from="1600077098681" duration="10067000" />
+      <workItem from="1600156058504" duration="2493000" />
+      <workItem from="1600233944535" duration="745000" />
+      <workItem from="1600234954097" duration="6274000" />
     </task>
     <servers />
   </component>
@@ -101,14 +113,16 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="369" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599743787432">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="369" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600235112651">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="369" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1599743787432" />
-    <state x="660" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599739793017">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="369" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1600163639441" />
+    <state x="369" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.829@0.23.1440.829" timestamp="1600235112651" />
+    <state x="660" y="262" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600235104784">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="660" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1599739793017" />
+    <state x="660" y="262" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.829@0.23.1440.829" timestamp="1600235104784" />
     <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598977428098">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
@@ -119,9 +133,10 @@
     <state x="418" y="174" width="604" height="490" key="find.popup/0.23.1440.798@0.23.1440.798" timestamp="1598980232676" />
     <state x="418" y="175" width="604" height="490" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1598977265656" />
     <state x="418" y="176" width="604" height="495" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1598985998228" />
-    <state x="385" y="158" width="670" height="676" key="search.everywhere.popup" timestamp="1599021312136">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="385" y="161" width="670" height="692" key="search.everywhere.popup" timestamp="1600258044553">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="385" y="158" width="670" height="676" key="search.everywhere.popup/0.23.1440.811@0.23.1440.811" timestamp="1599021312136" />
+    <state x="385" y="161" width="670" height="692" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1600258044553" />
   </component>
 </project>
