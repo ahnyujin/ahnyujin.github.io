@@ -2,6 +2,9 @@
   filename: 'network-demo'
   lastmod: '2020-09-14 22:15:34 +0900'
 -
+  filename: 'servlet'
+  lastmod: '2020-09-16 21:18:12 +0900'
+-
   filename: 'network-demo2'
   lastmod: '2020-09-14 22:15:34 +0900'
 -
@@ -11,11 +14,17 @@
   filename: 'thread-lock-lock'
   lastmod: '2020-09-10 22:54:16 +0900'
 -
+  filename: 'jpa'
+  lastmod: '2020-09-16 21:18:12 +0900'
+-
   filename: 'rest'
   lastmod: '2020-09-13 21:23:13 +0900'
 -
   filename: 'thread-lock-thread'
   lastmod: '2020-09-04 22:04:18 +0900'
+-
+  filename: 'web-server-and-was'
+  lastmod: '2020-09-16 21:18:12 +0900'
 -
   filename: 'enterprise-programming-1'
   lastmod: '2020-09-02 22:50:58 +0900'
