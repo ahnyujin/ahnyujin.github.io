@@ -39,6 +39,12 @@ Isolation Level
 3. Repeatable Read (레벨 2)
 4. Serializable (레벨 3)
 
+## level 높을 경우
+비용이 많이 듦
+## level 낮을 경우
+- Dirty Read
+- Non-Repeatable Read
+- Phantom Read
 # 출처
 - [DBMS는 어떻게 트랜잭션을 관리할까?](https://d2.naver.com/helloworld/407507)
 - [Transaction Isolation Level](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Computer%20Science/Database/Transaction%20Isolation%20Level.md)
