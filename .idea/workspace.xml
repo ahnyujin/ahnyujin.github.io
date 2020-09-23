@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-16-os-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-16-os-demo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-21-oop.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-21-oop-1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +57,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,7 +97,10 @@
       <workItem from="1600677710946" duration="219000" />
       <workItem from="1600683535569" duration="845000" />
       <workItem from="1600692749315" duration="3379000" />
-      <workItem from="1600759484556" duration="4507000" />
+      <workItem from="1600759484556" duration="6103000" />
+      <workItem from="1600856917389" duration="1041000" />
+      <workItem from="1600858275471" duration="3256000" />
+      <workItem from="1600863083016" duration="1615000" />
     </task>
     <servers />
   </component>
