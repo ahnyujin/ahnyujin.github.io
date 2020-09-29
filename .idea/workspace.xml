@@ -12,7 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-17-db.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-17-db.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-16-os-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-16-os-intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-22-oop-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-22-oop-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-sql-problem.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-28-sql-problem.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-sql.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-28-sql-join.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,11 @@
       <workItem from="1600940791072" duration="2492000" />
       <workItem from="1601282849541" duration="2169000" />
       <workItem from="1601296275949" duration="377000" />
-      <workItem from="1601296657084" duration="4194000" />
+      <workItem from="1601296657084" duration="7096000" />
+      <workItem from="1601359673741" duration="2816000" />
+      <workItem from="1601366027642" duration="6160000" />
+      <workItem from="1601384567341" duration="687000" />
+      <workItem from="1601386837713" duration="2304000" />
     </task>
     <servers />
   </component>
@@ -128,9 +135,10 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="458" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.798@0.23.1440.798" timestamp="1598977428098" />
-    <state x="418" y="176" width="604" height="495" key="find.popup" timestamp="1598985998228">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="418" y="171" width="604" height="553" key="find.popup" timestamp="1601362907288">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="418" y="171" width="604" height="553" key="find.popup/0.0.1440.900/-1600.0.1600.900@0.0.1440.900" timestamp="1601362907288" />
     <state x="418" y="174" width="604" height="490" key="find.popup/0.23.1440.798@0.23.1440.798" timestamp="1598980232676" />
     <state x="418" y="175" width="604" height="490" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1598977265656" />
     <state x="418" y="176" width="604" height="495" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1598985998228" />

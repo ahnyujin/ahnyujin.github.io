@@ -9,7 +9,7 @@ MYSQL 사용
 
 ---
 
-# SELECT
+# [ SELECT ]
 ## 59034. 모든 레코드 조회하기
 ```sql
 SELECT * FROM ANIMAL_INS ORDER BY ANIMAL_INS.ANIMAL_ID
@@ -47,7 +47,7 @@ SELECT NAME FROM ANIMAL_INS ORDER BY DATETIME ROWNUM <= 1
 
 ---
 
-# SUM, MAX, MIN
+# [ SUM, MAX, MIN ]
 ## 59415. 최댓값 구하기
 ```sql
 SELECT MAX(DATETIME) FROM ANIMAL_INS
@@ -71,7 +71,7 @@ SELECT COUNT(DISTINCT NAME) FROM ANIMAL_INS
 
 ---
 
-# GROUP BY
+# [ GROUP BY ]
 ## 59040. 고양이와 개는 몇 마리 있을까
 ```sql
 SELECT ANIMAL_TYPE, COUNT (ANIMAL_TYPE) FROM ANIMAL_INS GROUP BY ANIMAL_TYPE ORDER BY ANIMAL_TYPE
@@ -83,7 +83,7 @@ HAVING COUNT(NAME) >= 2 ORDER BY NAME
 ```
 ---
 
-# IS NULL
+# [ IS NULL ]
 ## 59039. 이름이 없는 동물의 아이디
 - NULL을 체크할때는 = 가 아닌 IS를 사용한다.
 ```sql
@@ -98,7 +98,7 @@ SELECT ANIMAL_TYPE, IFNULL(NAME, 'No name') NAME, SEX_UPON_INTAKE FROM ANIMAL_IN
 ```
 ---
 
-# JOIN
+# [ JOIN ]
 ## 59042. 없어진 기록 찾기
 - OUTS에는 있고 INS에는 없는 기록 찾기
 - RIGHT OUTER JOIN ( = RIGHT JOIN ) 사용
@@ -138,16 +138,15 @@ OUTS.SEX_UPON_OUTCOME REGEXP '^Spayed|^Neutered'
 이렇게도 바꿀 수 있다.
 ### MYSQL 패턴 매칭(pattern matching)
 1. LIKE
-    - LIKE 연산자는 특정 패턴을 포함하는 데이터만을 검색하기 위해 사용
-    - 특정 패턴을 포함하지 않는 데이터를 검색하고 싶을 때는 **NOT LIKE** 연산자를 사용
-    
-    와일드카드(wildcard) 문자
-    - '%'는 0개 이상의 문자
-    - '_'는 1개의 문자를 대체함.
+   - LIKE 연산자는 특정 패턴을 포함하는 데이터만을 검색하기 위해 사용
+   - 특정 패턴을 포함하지 않는 데이터를 검색하고 싶을 때는 **NOT LIKE** 연산자를 사용
+   - 와일드카드(wildcard) 문자
+     - '%'는 0개 이상의 문자
+     - '_'는 1개의 문자를 대체함.
 2. REGEXP
-    - LIKE 연산자보다 더욱 복잡한 패턴을 검색하고 싶을 때 사용
-    - REGEXP 연산자는 정규 표현식을 토대로 하는 패턴 매칭 연산을 제공. [참고](http://tcpschool.com/mysql/mysql_operator_patternMatching)
-    - NOT REGEXP 제공
+  - LIKE 연산자보다 더욱 복잡한 패턴을 검색하고 싶을 때 사용
+  - REGEXP 연산자는 정규 표현식을 토대로 하는 패턴 매칭 연산을 제공. [참고](http://tcpschool.com/mysql/mysql_operator_patternMatching)
+  - NOT REGEXP 제공
 
 # 출처
 - 문제 출처 - [프로그래머스 > SQL 고득점 Kit](https://programmers.co.kr/learn/challenges?selected_part_id=17043)
