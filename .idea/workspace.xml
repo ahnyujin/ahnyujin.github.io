@@ -11,13 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2020-09-25-os-structure.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-09-26-os-process.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-09-27-os-thread.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-16-os-demo.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-sql.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-29-spring-framework.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-29-spring-framework.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-02-enterprise-programming-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-16-os-intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-16-os-intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-25-os-structure.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-26-os-process.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-27-os-thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-27-os-thread.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,19 @@
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,7 +116,7 @@
       <workItem from="1601366027642" duration="6160000" />
       <workItem from="1601384567341" duration="687000" />
       <workItem from="1601386837713" duration="7359000" />
-      <workItem from="1601448133431" duration="2548000" />
+      <workItem from="1601448133431" duration="7423000" />
     </task>
     <servers />
   </component>
@@ -145,10 +157,11 @@
     <state x="418" y="174" width="604" height="490" key="find.popup/0.23.1440.798@0.23.1440.798" timestamp="1598980232676" />
     <state x="418" y="175" width="604" height="490" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1598977265656" />
     <state x="418" y="176" width="604" height="495" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1598985998228" />
-    <state x="385" y="161" width="670" height="692" key="search.everywhere.popup" timestamp="1600258044553">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="-1172" y="169" width="745" height="733" key="search.everywhere.popup" timestamp="1601452885975">
+      <screen x="-1600" y="23" width="1600" height="877" />
     </state>
     <state x="385" y="158" width="670" height="676" key="search.everywhere.popup/0.23.1440.811@0.23.1440.811" timestamp="1599021312136" />
+    <state x="-1172" y="169" width="745" height="733" key="search.everywhere.popup/0.23.1440.813/-1600.23.1600.877@-1600.23.1600.877" timestamp="1601452885975" />
     <state x="385" y="161" width="670" height="692" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1600258044553" />
   </component>
 </project>
