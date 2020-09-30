@@ -11,11 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2020-09-25-os-structure.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-09-26-os-process.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-09-27-os-thread.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-16-os-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-16-os-intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-22-oop-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-22-oop-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-sql-problem.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-28-sql-problem.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-sql.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-28-sql-join.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-16-os-demo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-sql.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-29-spring-framework.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-29-spring-framework.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +103,8 @@
       <workItem from="1601359673741" duration="2816000" />
       <workItem from="1601366027642" duration="6160000" />
       <workItem from="1601384567341" duration="687000" />
-      <workItem from="1601386837713" duration="2304000" />
+      <workItem from="1601386837713" duration="7359000" />
+      <workItem from="1601448133431" duration="2548000" />
     </task>
     <servers />
   </component>
