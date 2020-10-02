@@ -45,7 +45,7 @@ tags: [os]     # TAG names should always be lowercase
 - LRU 페이지 교체(Least Recently Used Page Replacement)
   - 가장 오랜 시간 **사용되지 않은** 페이즈를 교체
 # 출처
--[운영체제 21장 - 메모리 관리(8) : 가상 메모리](https://copycode.tistory.com/113)
--[운영체제 가상메모리란?](https://l2men.tistory.com/21)
--[운영체제 - Virtual Memory-1](https://baked-corn.tistory.com/20)
--[운영체제 | 가상 메모리](https://frontalnh.github.io/2018/04/04/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EA%B0%80%EC%83%81-%EB%A9%94%EB%AA%A8%EB%A6%AC%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/)
+- [운영체제 21장 - 메모리 관리(8) : 가상 메모리](https://copycode.tistory.com/113)
+- [운영체제 가상메모리란?](https://l2men.tistory.com/21)
+- [운영체제 - Virtual Memory-1](https://baked-corn.tistory.com/20)
+- [운영체제 | 가상 메모리](https://frontalnh.github.io/2018/04/04/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EA%B0%80%EC%83%81-%EB%A9%94%EB%AA%A8%EB%A6%AC%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/)

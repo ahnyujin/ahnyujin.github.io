@@ -181,4 +181,4 @@ class CacheConfiguration {
 #### +) Spring data JPA도
 Hibernate를 사용하던지 EclipseLink를 사용하던지
 # 출처
-[인프런 스프링 프레임워크 입문](https://www.inflearn.com/course/spring#)
+- [인프런 스프링 프레임워크 입문](https://www.inflearn.com/course/spring#)

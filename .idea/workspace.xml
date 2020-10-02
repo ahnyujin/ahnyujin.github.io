@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-04-thread-lock-2-lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-04-thread-lock-2-lock.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-09-30-rpc.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-30-rpc.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,15 +57,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,7 +113,8 @@
       <workItem from="1601384567341" duration="687000" />
       <workItem from="1601386837713" duration="7359000" />
       <workItem from="1601448133431" duration="11639000" />
-      <workItem from="1601469615587" duration="10186000" />
+      <workItem from="1601469615587" duration="10611000" />
+      <workItem from="1601643394393" duration="324000" />
     </task>
     <servers />
   </component>
