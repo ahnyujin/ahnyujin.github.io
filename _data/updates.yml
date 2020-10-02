@@ -18,7 +18,10 @@
   lastmod: '2020-09-10 22:54:16 +0900'
 -
   filename: 'rpc'
-  lastmod: '2020-10-01 21:00:17 +0900'
+  lastmod: '2020-10-02 22:08:51 +0900'
+-
+  filename: 'virtual-memory'
+  lastmod: '2020-10-02 22:08:51 +0900'
 -
   filename: 'thread-lock-lock'
   lastmod: '2020-10-01 21:00:17 +0900'
@@ -27,7 +30,7 @@
   lastmod: '2020-09-20 21:03:07 +0900'
 -
   filename: 'spring-framework'
-  lastmod: '2020-09-30 16:29:55 +0900'
+  lastmod: '2020-10-02 22:08:51 +0900'
 -
   filename: 'java-version'
   lastmod: '2020-09-20 21:03:07 +0900'
