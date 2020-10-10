@@ -2,7 +2,7 @@
 title: Network
 author: Yujin Ahn
 date: 2020-09-11 00:00:00 +0900
-categories: [Study, CS]
+categories: [CS, Network]
 tags: [network]     # TAG names should always be lowercase
 ---
 # 용어 정리

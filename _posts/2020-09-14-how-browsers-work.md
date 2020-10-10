@@ -2,7 +2,7 @@
 title: 브라우저의 동작방법
 author: Yujin Ahn
 date: 2020-09-14 19:00:00 +0900
-categories: [Study, CS]
+categories: [CS, Network]
 tags: [web]     # TAG names should always be lowercase
 ---
 

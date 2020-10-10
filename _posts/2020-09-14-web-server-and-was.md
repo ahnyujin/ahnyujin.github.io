@@ -2,7 +2,7 @@
 title: 웹서버와 WAS의 차이
 author: Yujin Ahn
 date: 2020-09-14 20:00:00 +0900
-categories: [Study, CS]
+categories: [CS, Network]
 tags: [web]     # TAG names should always be lowercase
 ---
 # 웹서버

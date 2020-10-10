@@ -2,7 +2,7 @@
 title: Load Balancing
 author: Yujin Ahn
 date: 2020-09-20 20:59:00 +0900
-categories: [Study, CS]
+categories: [CS, Network]
 tags: [network]     # TAG names should always be lowercase
 ---
 로드밸런싱 (Load Balancing)

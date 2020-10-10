@@ -2,7 +2,7 @@
 title: 자바 버전별 특징
 author: Yujin Ahn
 date: 2020-09-15 21:00:00 +0900
-categories: [Study, Java]
+categories: [Languages&Frameworks, Java]
 tags: [java]     # TAG names should always be lowercase
 ---
 # JAVA 7
@@ -19,7 +19,7 @@ tags: [java]     # TAG names should always be lowercase
 # JAVA 8
 1. **Lambda**
 2. **interface 클래스에 구현체 작성 가능**
-3. **Optional**
+3. [Optional](https://ahnyujin.github.io/posts/java-optional)
     - null이 될수도 있는 객체를 감싸는 일종의 래퍼 클래스
 4. **다양한 DateTime 추가**
 5. **GC 성능 대폭 개선**

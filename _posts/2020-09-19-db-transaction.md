@@ -2,7 +2,7 @@
 title: DB Transaction
 author: Yujin Ahn
 date: 2020-09-19 22:56:00 +0900
-categories: [Study, CS]
+categories: [CS, Database]
 tags: [db]     # TAG names should always be lowercase
 ---
 # DB Transaction

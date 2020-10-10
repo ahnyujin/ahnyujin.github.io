@@ -2,7 +2,7 @@
 title: SQL 문제풀이
 author: Yujin Ahn
 date: 2020-09-28 20:40:00 +0900
-categories: [Study, CS]
+categories: [CS, Database]
 tags: [db]     # TAG names should always be lowercase
 ---
 MYSQL 사용

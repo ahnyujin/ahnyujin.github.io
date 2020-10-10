@@ -2,7 +2,7 @@
 title: Spring Framework
 author: Yujin Ahn
 date: 2020-09-29 22:00:00 +0900
-categories: [Study, Spring]
+categories: [Languages&Frameworks, Spring]
 tags: [spring]     # TAG names should always be lowercase
 ---
 

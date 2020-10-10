@@ -2,7 +2,7 @@
 title: 스레드와 락 - (1) 프로세스와 스레드
 author: Yujin Ahn
 date: 2020-09-02 16:05:00 +0900
-categories: [Study, CS]
+categories: [CS, OS]
 tags: [os]     # TAG names should always be lowercase
 ---
 # 프로세스와 스레드의 차이

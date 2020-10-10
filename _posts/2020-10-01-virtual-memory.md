@@ -2,7 +2,7 @@
 title: Virtual Memory
 author: Yujin Ahn
 date: 2020-10-01 00:00:00 +0900
-categories: [Study, CS]
+categories: [CS, OS]
 tags: [os]     # TAG names should always be lowercase
 ---
 # 가상메모리

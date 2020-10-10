@@ -2,7 +2,7 @@
 title: 스레드와 락 - (2) 동기화와 락
 author: Yujin Ahn
 date: 2020-09-04 17:24:00 +0900
-categories: [Study, CS]
+categories: [CS, OS]
 tags: [os]     # TAG names should always be lowercase
 ---
 # 동기화와 락
