@@ -1,5 +1,5 @@
 ---
-title: [C++] 동적 할당과 객체 복사
+title: (C++) 동적 할당과 객체 복사
 author: Yujin Ahn
 date: 2020-10-06 17:00:00 +0900
 categories: [Languages&Frameworks, Cpp]

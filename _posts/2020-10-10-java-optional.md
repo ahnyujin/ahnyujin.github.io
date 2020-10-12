@@ -1,5 +1,5 @@
 ---
-title: [Java] Optional
+title: (Java) Optional
 author: Yujin Ahn
 date: 2020-10-10 17:00:00 +0900
 categories: [Languages&Frameworks, Java]

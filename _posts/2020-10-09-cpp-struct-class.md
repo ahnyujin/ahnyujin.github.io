@@ -1,5 +1,5 @@
 ---
-title: [C++] 클래스와 구조체의 차이
+title: (C++) 클래스와 구조체의 차이
 author: Yujin Ahn
 date: 2020-10-06 17:00:00 +0900
 categories: [Languages&Frameworks, Cpp]

@@ -1,5 +1,5 @@
 ---
-title: 자바 버전별 특징
+title: (Java) 자바 버전별 특징
 author: Yujin Ahn
 date: 2020-09-15 21:00:00 +0900
 categories: [Languages&Frameworks, Java]

@@ -12,36 +12,18 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-02-spring-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-02-spring-demo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-02-thread-lock-1-thread.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-02-thread-lock-1-thread.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-09-04-jpa.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-04-jpa.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-04-thread-lock-2-lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-04-thread-lock-2-lock.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-09-06-jdbc.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-06-jdbc.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-09-08-rest.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-08-rest.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-10-servlet.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-10-servlet.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-11-network-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-11-network-demo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-13-network-demo2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-13-network-demo2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-14-how-browsers-work.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-14-how-browsers-work.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-14-web-server-and-was.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-14-web-server-and-was.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-09-15-java-version.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-15-java-version.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-16-os-intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-16-os-intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-17-db.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-17-db.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-18-b-tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-18-b-tree.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-19-db-transaction.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-19-db-transaction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-20-load-balancing.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-20-load-balancing.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-21-oop-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-21-oop-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-22-oop-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-22-oop-2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-09-23-single-inheritance.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-23-single-inheritance.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-24-ajax.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-24-ajax.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-sql-join.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-28-sql-join.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-28-sql-problem.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-28-sql-problem.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-29-spring-framework.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-29-spring-framework.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-30-rpc.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-30-rpc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-01-virtual-memory.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-01-virtual-memory.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-02-proxy.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-02-proxy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-04-ci-cd.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-04-ci-cd.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-05-automata.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-05-automata.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-10-06-gc.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-06-gc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-08-java-collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-08-java-collection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-09-cpp-binding.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-09-cpp-binding.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-09-cpp-dynamic-malloc-n-copy.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-09-cpp-dynamic-malloc-n-copy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-09-cpp-struct-class.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-09-cpp-struct-class.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-10-java-optional.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-10-java-optional.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-10-java-wrapper-class.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-10-java-wrapper-class.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +131,9 @@
       <workItem from="1601985107831" duration="7140000" />
       <workItem from="1602156416280" duration="3070000" />
       <workItem from="1602229397904" duration="4705000" />
-      <workItem from="1602251558257" duration="7012000" />
+      <workItem from="1602251558257" duration="8801000" />
+      <workItem from="1602395116829" duration="2000" />
+      <workItem from="1602478594984" duration="7156000" />
     </task>
     <servers />
   </component>
@@ -190,13 +174,14 @@
     <state x="418" y="174" width="604" height="490" key="find.popup/0.23.1440.798@0.23.1440.798" timestamp="1598980232676" />
     <state x="418" y="175" width="604" height="490" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1598977265656" />
     <state x="418" y="176" width="604" height="495" key="find.popup/0.23.1440.806@0.23.1440.806" timestamp="1598985998228" />
-    <state x="-1172" y="169" width="745" height="734" key="search.everywhere.popup" timestamp="1601911602720">
-      <screen x="-1600" y="23" width="1600" height="877" />
+    <state x="-1172" y="158" width="745" height="681" key="search.everywhere.popup" timestamp="1602479462059">
+      <screen x="-1600" y="23" width="1600" height="813" />
     </state>
     <state x="-1172" y="150" width="745" height="753" key="search.everywhere.popup/0.0.1440.900/-1600.0.1600.900@-1600.0.1600.900" timestamp="1601902280921" />
     <state x="385" y="158" width="670" height="676" key="search.everywhere.popup/0.23.1440.811@0.23.1440.811" timestamp="1599021312136" />
     <state x="-1172" y="169" width="745" height="733" key="search.everywhere.popup/0.23.1440.813/-1600.23.1600.877@-1600.23.1600.877" timestamp="1601452885975" />
     <state x="385" y="161" width="670" height="692" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1600258044553" />
+    <state x="-1172" y="158" width="745" height="681" key="search.everywhere.popup/0.23.1440.877/-1600.23.1600.813@-1600.23.1600.813" timestamp="1602479462059" />
     <state x="-1172" y="169" width="745" height="734" key="search.everywhere.popup/0.23.1440.877/-1600.23.1600.877@-1600.23.1600.877" timestamp="1601911602720" />
   </component>
 </project>

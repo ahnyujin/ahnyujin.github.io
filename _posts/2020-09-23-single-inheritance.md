@@ -1,5 +1,5 @@
 ---
-title: 자바는 왜 단일상속만 가능할까?
+title: (Java) 자바는 왜 단일상속만 가능할까?
 author: Yujin Ahn
 date: 2020-09-23 19:40:00 +0900
 categories: [Languages&Frameworks, Java]

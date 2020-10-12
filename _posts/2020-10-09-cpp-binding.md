@@ -1,5 +1,5 @@
 ---
-title: [C++] 정적/동적 바인딩
+title: (C++) 정적/동적 바인딩
 author: Yujin Ahn
 date: 2020-10-06 17:00:00 +0900
 categories: [Languages&Frameworks, Cpp]
