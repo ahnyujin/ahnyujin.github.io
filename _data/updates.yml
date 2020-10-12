@@ -6,19 +6,25 @@
   lastmod: '2020-10-10 12:22:44 +0900'
 -
   filename: 'jdbc'
-  lastmod: '2020-10-10 12:22:44 +0900'
+  lastmod: '2020-10-12 20:20:06 +0900'
 -
   filename: 'proxy'
   lastmod: '2020-10-10 12:22:44 +0900'
+-
+  filename: 'java-wrapper-class'
+  lastmod: '2020-10-12 20:20:06 +0900'
 -
   filename: 'network-demo'
   lastmod: '2020-10-10 12:22:44 +0900'
 -
   filename: 'single-inheritance'
-  lastmod: '2020-10-10 12:22:44 +0900'
+  lastmod: '2020-10-12 20:20:06 +0900'
 -
   filename: 'servlet'
   lastmod: '2020-10-10 12:22:44 +0900'
+-
+  filename: 'cpp-binding'
+  lastmod: '2020-10-12 20:20:06 +0900'
 -
   filename: 'network-demo2'
   lastmod: '2020-10-10 12:22:44 +0900'
@@ -38,6 +44,9 @@
   filename: 'thread-lock-lock'
   lastmod: '2020-10-10 12:22:44 +0900'
 -
+  filename: 'java-collection'
+  lastmod: '2020-10-12 20:20:06 +0900'
+-
   filename: 'db-transaction'
   lastmod: '2020-10-10 12:22:44 +0900'
 -
@@ -51,25 +60,34 @@
   lastmod: '2020-10-10 12:22:44 +0900'
 -
   filename: 'java-version'
-  lastmod: '2020-10-10 12:22:44 +0900'
+  lastmod: '2020-10-12 20:20:06 +0900'
+-
+  filename: 'cpp-struct-class'
+  lastmod: '2020-10-12 20:20:06 +0900'
 -
   filename: 'jpa'
-  lastmod: '2020-10-10 12:22:44 +0900'
+  lastmod: '2020-10-12 20:20:06 +0900'
+-
+  filename: 'cpp-dynamic-malloc-n-copy'
+  lastmod: '2020-10-12 20:20:06 +0900'
 -
   filename: 'rest'
-  lastmod: '2020-10-10 12:22:44 +0900'
+  lastmod: '2020-10-12 20:20:06 +0900'
 -
   filename: 'automata'
   lastmod: '2020-10-10 12:22:44 +0900'
 -
   filename: 'gc'
-  lastmod: '2020-10-10 12:22:44 +0900'
+  lastmod: '2020-10-12 20:20:06 +0900'
 -
   filename: 'db'
   lastmod: '2020-10-10 12:22:44 +0900'
 -
   filename: 'thread-lock-thread'
   lastmod: '2020-10-10 12:22:44 +0900'
+-
+  filename: 'java-optional'
+  lastmod: '2020-10-12 20:20:06 +0900'
 -
   filename: 'sql-join'
   lastmod: '2020-10-10 12:22:44 +0900'
