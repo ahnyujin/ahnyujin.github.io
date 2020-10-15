@@ -12,18 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-04-jpa.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-04-jpa.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-06-jdbc.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-06-jdbc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-08-rest.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-08-rest.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-15-java-version.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-15-java-version.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-23-single-inheritance.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-23-single-inheritance.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-06-gc.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-06-gc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-08-java-collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-08-java-collection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-09-19-db-transaction.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-19-db-transaction.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-10-09-cpp-binding.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-09-cpp-binding.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-09-cpp-dynamic-malloc-n-copy.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-09-cpp-dynamic-malloc-n-copy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-09-cpp-struct-class.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-09-cpp-struct-class.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2020-10-10-java-optional.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-10-java-optional.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-10-10-java-wrapper-class.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-10-java-wrapper-class.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-12-design-pattern.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-10-12-design-pattern.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/ahnyujin/ahnyujin.github.io" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -66,19 +65,6 @@
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,7 +119,9 @@
       <workItem from="1602229397904" duration="4705000" />
       <workItem from="1602251558257" duration="8801000" />
       <workItem from="1602395116829" duration="2000" />
-      <workItem from="1602478594984" duration="7156000" />
+      <workItem from="1602478594984" duration="11092000" />
+      <workItem from="1602683084220" duration="10570000" />
+      <workItem from="1602744347786" duration="881000" />
     </task>
     <servers />
   </component>
