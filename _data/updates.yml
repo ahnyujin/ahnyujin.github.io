@@ -11,6 +11,9 @@
   filename: 'proxy'
   lastmod: '2020-10-10 12:22:44 +0900'
 -
+  filename: 'design-pattern'
+  lastmod: '2020-10-15 17:28:22 +0900'
+-
   filename: 'java-wrapper-class'
   lastmod: '2020-10-12 20:20:06 +0900'
 -
@@ -24,7 +27,7 @@
   lastmod: '2020-10-10 12:22:44 +0900'
 -
   filename: 'cpp-binding'
-  lastmod: '2020-10-12 20:20:06 +0900'
+  lastmod: '2020-10-15 17:28:22 +0900'
 -
   filename: 'network-demo2'
   lastmod: '2020-10-10 12:22:44 +0900'
@@ -48,7 +51,7 @@
   lastmod: '2020-10-12 20:20:06 +0900'
 -
   filename: 'db-transaction'
-  lastmod: '2020-10-10 12:22:44 +0900'
+  lastmod: '2020-10-15 17:28:22 +0900'
 -
   filename: 'ajax'
   lastmod: '2020-10-10 12:22:44 +0900'
@@ -87,7 +90,7 @@
   lastmod: '2020-10-10 12:22:44 +0900'
 -
   filename: 'java-optional'
-  lastmod: '2020-10-12 20:20:06 +0900'
+  lastmod: '2020-10-15 17:28:22 +0900'
 -
   filename: 'sql-join'
   lastmod: '2020-10-10 12:22:44 +0900'
