@@ -1,9 +1,9 @@
 ---
 title: (OS) 뮤텍스와 세마포어의 차이
 author: Yujin Ahn
-date: 2020-10-14 23:00:00 +0900
-categories: [CS, Database]
-tags: [db]     # TAG names should always be lowercase
+date: 2020-10-15 23:00:00 +0900
+categories: [CS, OS]
+tags: [os]     # TAG names should always be lowercase
 ---
 # 뮤텍스와 세마포어의 차이
 ### 1. 뮤텍스는 바이너리 세마포어이다. (동기화 대상이 1개)
