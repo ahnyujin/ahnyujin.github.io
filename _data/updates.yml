@@ -24,7 +24,7 @@
   lastmod: '2020-10-12 20:20:06 +0900'
 -
   filename: 'servlet'
-  lastmod: '2020-10-10 12:22:44 +0900'
+  lastmod: '2020-10-16 19:19:17 +0900'
 -
   filename: 'cpp-binding'
   lastmod: '2020-10-15 17:28:22 +0900'
@@ -34,6 +34,9 @@
 -
   filename: 'spring-demo'
   lastmod: '2020-10-10 12:22:44 +0900'
+-
+  filename: 'db-lock'
+  lastmod: '2020-10-16 19:19:17 +0900'
 -
   filename: 'rpc'
   lastmod: '2020-10-10 12:22:44 +0900'
@@ -48,10 +51,10 @@
   lastmod: '2020-10-10 12:22:44 +0900'
 -
   filename: 'java-collection'
-  lastmod: '2020-10-12 20:20:06 +0900'
+  lastmod: '2020-10-16 19:19:17 +0900'
 -
   filename: 'db-transaction'
-  lastmod: '2020-10-15 17:28:22 +0900'
+  lastmod: '2020-10-16 19:19:17 +0900'
 -
   filename: 'ajax'
   lastmod: '2020-10-10 12:22:44 +0900'
