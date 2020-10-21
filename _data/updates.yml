@@ -5,8 +5,14 @@
   filename: 'oop-2'
   lastmod: '2020-10-10 12:22:44 +0900'
 -
+  filename: 'http'
+  lastmod: '2020-10-21 22:53:13 +0900'
+-
   filename: 'jdbc'
   lastmod: '2020-10-12 20:20:06 +0900'
+-
+  filename: 'tcp-udp'
+  lastmod: '2020-10-21 22:53:13 +0900'
 -
   filename: 'proxy'
   lastmod: '2020-10-10 12:22:44 +0900'
@@ -75,7 +81,7 @@
   lastmod: '2020-10-12 20:20:06 +0900'
 -
   filename: 'jpa'
-  lastmod: '2020-10-12 20:20:06 +0900'
+  lastmod: '2020-10-21 22:53:13 +0900'
 -
   filename: 'cpp-dynamic-malloc-n-copy'
   lastmod: '2020-10-12 20:20:06 +0900'
