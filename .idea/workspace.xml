@@ -12,9 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-04-jpa.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-04-jpa.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-12-http.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-12-http.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-13-tcp-udp.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-09-13-tcp-udp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-18-functional-programming.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-10-18-jvm.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +138,7 @@
       <workItem from="1602865633014" duration="10989000" />
       <workItem from="1603010373359" duration="2240000" />
       <workItem from="1603109640170" duration="5452000" />
-      <workItem from="1603186394896" duration="13974000" />
+      <workItem from="1603186394896" duration="17883000" />
     </task>
     <servers />
   </component>
