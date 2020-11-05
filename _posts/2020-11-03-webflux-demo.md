@@ -70,13 +70,11 @@ Webflux의 특성
 WebFlux로 성능을 최대치로 끌어올리려면 모든 I/O 작업이 논블로킹 기반으로 동작해야 된다.
 
 ## 2. 함수형 프로그래밍
-순수함수를 조합하여 프로그래밍하는 방식
+자바8에서 [함수형 API](https://ahnyujin.github.io/posts/functional-programming) 를 위해 제공하는 람다 표현식은
+논블로킹 어플리케이션과 continuation-style API에서 비동기로직을 서술적 구성으로 작성 가능하도록 하는 유용한 도구이다.
 
-1. 불변성
-2. first-class function
-3. 지연연산
+스프링 웹플럭스 programming 모델 레벨에서 functional web endpoints를 어노테이티드 컨트롤러와 함께 제공할 수 있도록 한다.
 
-(!작성중!)
 
 출처
 - [docs.spring.io/spring-framework](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html)
