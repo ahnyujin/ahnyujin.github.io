@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6be30f4b-4b65-4532-97c4-4db34db4c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-04-21-jsp.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-04-21-jsp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2021-04-22-jsp2.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-04-22-jsp2.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +62,6 @@
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -148,7 +135,9 @@
       <workItem from="1605867590134" duration="195000" />
       <workItem from="1619014712309" duration="694000" />
       <workItem from="1619015436521" duration="4565000" />
-      <workItem from="1619097856048" duration="1367000" />
+      <workItem from="1619097856048" duration="2276000" />
+      <workItem from="1619447214129" duration="408000" />
+      <workItem from="1619447968930" duration="424000" />
     </task>
     <servers />
   </component>
