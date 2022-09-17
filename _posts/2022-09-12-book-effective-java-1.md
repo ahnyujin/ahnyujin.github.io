@@ -25,7 +25,7 @@ tags: [JAVA]
     1. 클라이언트는 팩토리가 건네주는 객체가 어떤 클래스의 인스턴스인지 알 수도, 알 필요도 없기에 유연하게 구현할 수 있다.
 5. 정적 팩토리 메소드를 작성하는 시점에는 반환할 객체의 클래스가 존재하지 않아도 된다
     1. 클라이언트가 서비스의 인스턴스를 얻을 때 사용하는 서비스 접근 API 역시 정적 팩토리이다. 서비스 제공자 인터페이스가 없다면 각 구현체를 인스턴스로 만들 때 리플렉션을 사용해야 한다.
-    
+
 
 단점은 다음과 같다.
 
@@ -50,7 +50,7 @@ public class NutritionFacts {
 	private final int fat;           // 선택
 	private final int sodium;        // 선택
 	private final int carbonhydrate; // 선택
-	
+
 	public NutritionFacts(int calories) {
 		this(calories, 0);
 	}
@@ -83,7 +83,7 @@ public class NutritionFacts {
 	private final int fat           = 0 // 선택
 	private final int sodium        = 0 // 선택
 	private final int carbonhydrate = 0 // 선택
-	
+
 	public NutritionFacts() { }
 
 	public void setCalories(int val)      { calories = val; }
@@ -111,31 +111,31 @@ public class NutritionFacts {
 	public static class Builder {
 	  // 필수 매개변수
 	  private final int calories;
-	 
+
 	  // 선택 매개변수 - 기본값으로 초기화
 	  private final int fat           = 0;
 		private final int sodium        = 0;
 		private final int carbonhydrate = 0;
-	
+
 	  public Builder(int calories) {
 	    this.calories = calories;
 	  }
-		
+
 	  public Builder fat(int val) {
 	   fat = val;
 	   return this;
 	  }
-	
+
 	  public Builder sodium(int val) {
 	   sodium = val;
 	   return this;
 	  }
-	
+
 	  public Builder carbonhydrate(int val) {
 	   carbonhydrate = val;
 	   return this;
 	  }
-	
+
 		public NutritionFacts build() {
 	    return new NutritionFacts(this);
 	  }
@@ -170,7 +170,7 @@ public class NutritionFacts {
 public class Elvis {
 	**public static final Elvis INSTANCE = new Elvis();**
 	private Elvis() {...}
-	
+
 	public void leaveTheBuilding() {...}
 }
 ```
@@ -184,7 +184,7 @@ public class Elvis {
 	**private** static final Elvis INSTANCE = new Elvis();
 	private Elvis() {...}
 	**public static Elvis getInstance**() { return INSTANCE; }
-	
+
 	public void leaveTheBuilding() {...}
 }
 ```
@@ -210,7 +210,7 @@ private Object readResolve() {
 ```java
 public enum Elvis {
   INSTANCE;
-  
+
   public void leaveTheBuilding() {...}
 }
 ```
@@ -297,7 +297,7 @@ private static long sum() {
   Long sum = 0L;
   for(long i = 0; i <= Integer.MAX_VALUE; i++)
     sum += i;
-  
+
   return sum;
 }
 ```
@@ -339,3 +339,100 @@ public Object pop() {
 ## listener 혹은 callback
 
 클라이언트가 콜백을 등록만 하고 해지하지 않는다면 콜백은 계속해서 쌓이기만 한다. 이러한 경우 콜백을 약한 참조(weak reference)로 저장하여 가비지 컬렉터가 즉시 수거해 가게끔 한다. ex) WeakHashMap에 키로 저장
+
+# ITEM 8 - finalizer와 cleaner사용을 피하라
+
+자바에서는 객체 소멸자로 finalizer를 사용해왔다. finalizer는 예측이 어렵고 느리고 불편하여 자바9에서 cleaner사용을 권고하고 finalizer를 deprecated API로 지정하였다. 그러나 cleaner 역시도 동일한 단점을 가지고 있으며 일반적으로 불필요하다.
+
+cleaner와 finalizer는 즉시 실행을 보장하지 않아 예측이 어렵다. 실행 시점은 전적으로 가비지 컬렉터의 구현에 의존한다.
+
+cleaner의 쓰임은 아래 두가지의 경우이다. 사용시 불확실성과 성능 저하에 유의하자.
+
+1. 자원의 소유자가 close 메서드를 부르지 않는 것에 대한 안전망 역할
+    1. cleaner와 finalizer가 즉시 실행된다는 보장은 없지만 자원 회수를 늦게라도 해주는 것에 의의를 둔다
+    2. 예) 자바 라이브러리 중 FileInputStream, FileOutputStream, ThreadPoolExecutor
+2. 중요하지 않은 네이티브 자원(native peer) 회수
+    1. 가비지 컬렉터가 인식하지 못하는 네이티브 객체를 회수할 때 사용한다.
+    2. 그러나 성능 저하와 즉시 회수가 불가능함을 감수해야 한다. 따라서 심각한 자원에는 사용할 수 없다.
+
+위의 케이스에 해당하지 않는다면
+
+AutoCloseable을 구현하고, 클라이언트에서 인스턴스를 다 사용하고 나면 close 메서드를 호출한다. 이 때 각 인스턴스는 자신이 닫혀있는지 추적하는것이 좋다. close 메서드는 이 객체가 더이상 유효하지 않음을 필드에 기록하고 다시 불린다면 IllegalStateException을 던지도록 구현한다.
+
+# ITEM 9 - try-finally 보다는 try-with-resources를 사용하라
+
+close메서드를 호출해 직접 닫아줘야 하는 자원이 제대로 닫힘을 보장하는 수단으로 try-finally를 사용해 왔다. finalizer도 사용했지만 finalizer는 단점이 많았다. 자바 7의 try-with-resources는 기존 try-finally의 기능과 단점들을 커버한다.
+
+try-finally의 단점
+
+```java
+static String firstLineOfFile(String path) throws IOException {
+  BufferedReader br = new BufferedReader(new FileReader(path));
+  try {
+    return br.readLine();
+  } finally {
+    br.close();
+  }
+}
+```
+
+하지만 자원이 둘 이상이면 코드가 지저분해진다.
+
+```java
+static void copy(String src, String dst) throws IOException {
+  InputStream in = new FileInputStream(src);
+  try {
+    OutputStream out = new FileOutputStream(dst);
+    try {
+      byte[] buf = new byte[BUFFER_SIZE];
+      int n;
+      while((n=in.read(buf)) >=0 )
+        out.write(buf, 0, n);
+    } finally {
+      out.close();
+    }
+  } finally {
+    in.close();
+  }
+}
+```
+
+또한 디버깅이 어렵다. try 블록에서 예외가 생기고 finally 블록에서도 예외가 생겼을 경우, 스택 추적 내역에 두번째 예외의 정보만 남고 첫번째 예외에 대한 정보가 남지 않을 것이기 때문이다.
+
+try-with-resources 구조를 사용하려면 해당 자원이 AutoCloseable 인터페이스를 구현해야 한다.
+
+```java
+static String firstLineOfFile(String path) throws IOException {
+  try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+    return br.readLine();
+  }
+}
+```
+
+자원이 둘 이상이라도 아래와 같이 깔끔하게 코드를 작성할 수 있다.
+
+```java
+static void copy(String src, String dst) throws IOException {
+  try (InputStream in = new FileInputStream(src);
+       OutputStream out = new FileOutputStream(dst)) {
+	  byte[] buf = new byte[BUFFER_SIZE];
+	  int n;
+	  while((n=in.read(buf)) >=0 )
+	  out.write(buf, 0, n);
+  }
+}
+```
+
+디버깅도 간단하다. readLine과 close 호출 양쪽 모두 예외가 발생해도, close측의 예외는 **숨겨지고** readLine의 예외가 기록된다. 숨겨진 예외는 surpressed라는 꼬리표를 달고 스택 추적 내역에 출력된다.
+
+catch 절을 사용하여 다수의 예외처리를 try문을 중첩하지 않고 할 수도 있다.
+
+```java
+static String firstLineOfFile(String path, String defaultVal) {
+  try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+    return br.readLine();
+  } catch (IOException) {
+    return defaultVal;
+  }
+}
+```
