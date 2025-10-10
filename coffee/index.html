@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>커피 맛 선택기 — Coffee Picker</title>
+  <meta name="description" content="간단한 커피 맛 선택기: 취향을 골라 추천을 받아보세요. GitHub Pages에 올리기 쉬운 단일 파일 웹앱입니다.">
+  <style>
+    :root{--bg:#f6f4ef;--card:#ffffff;--accent:#6b4f4f;--muted:#6b6b6b}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;margin:0;background:linear-gradient(180deg,#fbfaf8,var(--bg));color:#222}
+    .wrap{max-width:980px;margin:40px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,#c49a6c,#6b4f4f);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    h1{margin:0;font-size:1.5rem}
+    p.lead{color:var(--muted);margin:6px 0 20px}
+
+    .grid{display:grid;grid-template-columns:1fr 380px;gap:20px}
+    @media (max-width:880px){.grid{grid-template-columns:1fr} .controls{order:2}}
+
+    .card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(30,30,30,0.06)}
+
+    .flavors{display:flex;flex-wrap:wrap;gap:10px}
+    .chip{padding:8px 12px;border-radius:999px;border:1px solid #eee;background:#faf8f6;cursor:pointer;user-select:none}
+    .chip.active{background:var(--accent);color:#fff;border-color:transparent;box-shadow:0 6px 12px rgba(107,79,79,0.12)}
+
+    .range-row{display:flex;align-items:center;gap:12px;margin-top:12px}
+    .range-row label{min-width:80px;color:var(--muted);font-size:0.95rem}
+    input[type=range]{flex:1}
+
+    .btn{display:inline-block;padding:12px 18px;border-radius:10px;background:var(--accent);color:#fff;border:0;cursor:pointer;font-weight:600}
+    .btn.secondary{background:#eee;color:#222}
+
+    .result{display:flex;flex-direction:column;gap:12px}
+    .coffee-card{display:flex;gap:12px;align-items:center}
+    .thumb{width:84px;height:84px;border-radius:10px;background:#ddd;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#666}
+    .coffee-info h3{margin:0;font-size:1.1rem}
+    .tags{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+    .tag{font-size:0.85rem;padding:6px 8px;border-radius:999px;background:#f3f1ef;color:#444}
+
+    footer{margin-top:18px;color:var(--muted);font-size:0.9rem}
+
+    .small{font-size:0.85rem;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">CF</div>
+      <div>
+        <h1>커피 맛 선택기</h1>
+        <p class="lead">취향에 맞는 커피를 골라 추천을 받아보세요.</p>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="card">
+        <h2 style="margin-top:0">1) 좋아하는 풍미를 골라보세요</h2>
+        <div class="flavors" id="flavorChips">
+          <!-- JS가 채울 영역 -->
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h3 style="margin:0 0 8px 0">2) 세부 선호</h3>
+          <div class="range-row"><label>쓴맛</label><input type="range" id="bitterness" min="0" max="10" value="6"></div>
+          <div class="range-row"><label>산미</label><input type="range" id="acidity" min="0" max="10" value="4"></div>
+          <div class="range-row"><label>바디감</label><input type="range" id="body" min="0" max="10" value="6"></div>
+          <div style="margin-top:12px;display:flex;gap:10px;align-items:center">
+            <button class="btn" id="suggestBtn">추천 받기</button>
+            <button class="btn secondary" id="randomBtn">랜덤으로 골라줘</button>
+            <div style="margin-left:auto" class="small">결과는 샘플 데이터 기반입니다.</div>
+          </div>
+        </div>
+
+        <div style="margin-top:12px">
+          <h3 style="margin:0 0 8px 0">선택한 항목</h3>
+          <div id="summary" class="small">아직 선택된 항목이 없습니다.</div>
+        </div>
+      </section>
+
+      <aside class="controls card">
+        <h2 style="margin-top:0">추천 결과</h2>
+        <div id="resultArea" class="result">
+          <div class="small">아직 추천을 받지 않았습니다. 오른쪽에서 취향을 선택하세요.</div>
+        </div>
+      </aside>
+    </main>
+
+  </div>
+
+  <script>
+    // 샘플 풍미 목록
+    const FLAVORS = ['초콜릿','견과류','과일향','꽃향기','스모키','카라멜','허브','허니','시트러스','다크초콜릿'];
+
+    // 샘플 커피 DB (간단한 매칭으로 추천)
+    const COFFEES = [
+      {id:1,name:'에티오피아 예가체프',tags:['과일향','꽃향기','시트러스'],desc:'밝고 깔끔한 산미, 꽃향과 시트러스의 우아한 향미.'},
+      {id:2,name:'콜롬비아 수프리모',tags:['초콜릿','견과류','카라멜'],desc:'고른 바디감과 초콜릿/카라멜의 부드러운 단맛.'},
+      {id:3,name:'브라질 산토스',tags:['견과류','다크초콜릿','카라멜'],desc:'묵직한 바디와 고소한 풍미, 낮은 산미.'},
+      {id:4,name:'케냐 AA',tags:['시트러스','과일향','허니'],desc:'강한 산미와 복합적인 과일향, 청량감 있는 피니시.'},
+      {id:5,name:'인도네시아 만델링',tags:['스모키','초콜릿','허브'],desc:'무거운 바디와 스모키한 향미, 낮은 산미.'},
+      {id:6,name:'탄자니아 피베리',tags:['과일향','시트러스','허니'],desc:'밝고 선명한 산미와 달콤한 뒷맛.'}
+    ];
+
+    // 초기 UI 채우기
+    const flavorChips = document.getElementById('flavorChips');
+    FLAVORS.forEach(f => {
+      const el = document.createElement('div');
+      el.className = 'chip';
+      el.textContent = f;
+      el.addEventListener('click', ()=>{
+        el.classList.toggle('active');
+        updateSummary();
+      });
+      flavorChips.appendChild(el);
+    });
+
+    const updateSummary = ()=>{
+      const active = Array.from(document.querySelectorAll('.chip.active')).map(x=>x.textContent);
+      const b = +document.getElementById('bitterness').value;
+      const a = +document.getElementById('acidity').value;
+      const bod = +document.getElementById('body').value;
+      const s = `풍미: ${active.length?active.join(', '):'선택 없음'} • 쓴맛 ${b}/10 • 산미 ${a}/10 • 바디감 ${bod}/10`;
+      document.getElementById('summary').textContent = s;
+    }
+
+    document.getElementById('bitterness').addEventListener('input', updateSummary);
+    document.getElementById('acidity').addEventListener('input', updateSummary);
+    document.getElementById('body').addEventListener('input', updateSummary);
+
+    // 추천 로직: 단순 점수 기반 매칭
+    function scoreCoffee(coffee, prefs){
+      let score = 0;
+      // 태그 매칭
+      coffee.tags.forEach(t=>{ if(prefs.flavors.includes(t)) score += 4; });
+      // 산미/쓴맛/바디 선호 반영: 예시로 간단히 거리를 측정
+      // DB에 기준값(가중치)을 넣지 않았으므로 간단한 가정 사용
+      const bitternessPref = prefs.bitterness;
+      const acidityPref = prefs.acidity;
+      const bodyPref = prefs.body;
+      // coffee에 실제 수치가 없다 — 대신 태그에 기반해 보정
+      if(coffee.tags.includes('다크초콜릿') || coffee.tags.includes('초콜릿')) score += Math.max(0, 6 - Math.abs(bitternessPref-6));
+      if(coffee.tags.includes('시트러스') || coffee.tags.includes('과일향')) score += Math.max(0, 6 - Math.abs(acidityPref-5));
+      if(coffee.tags.includes('스모키') || coffee.tags.includes('견과류')) score += Math.max(0, 6 - Math.abs(bodyPref-6));
+      return score;
+    }
+
+    function recommend(prefs){
+      // 코피별 점수 계산
+      const scored = COFFEES.map(c=>({c,score:scoreCoffee(c,prefs)}));
+      scored.sort((a,b)=>b.score-a.score);
+      return scored.slice(0,3).map(x=>x.c);
+    }
+
+    function renderResults(list){
+      const area = document.getElementById('resultArea');
+      area.innerHTML = '';
+      list.forEach(c=>{
+        const el = document.createElement('div');
+        el.className = 'coffee-card';
+        el.innerHTML = `
+          <div class="thumb">☕</div>
+          <div class="coffee-info">
+            <h3>${c.name}</h3>
+            <div class="small">${c.desc}</div>
+            <div class="tags">${c.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+          </div>
+        `;
+        area.appendChild(el);
+      });
+      const more = document.createElement('div');
+      more.className = 'small';
+      more.style.marginTop='8px';
+      more.textContent = '';
+      area.appendChild(more);
+    }
+
+    document.getElementById('suggestBtn').addEventListener('click', ()=>{
+      const prefs = {
+        flavors: Array.from(document.querySelectorAll('.chip.active')).map(x=>x.textContent),
+        bitterness: +document.getElementById('bitterness').value,
+        acidity: +document.getElementById('acidity').value,
+        body: +document.getElementById('body').value
+      };
+      const recs = recommend(prefs);
+      renderResults(recs);
+      updateSummary();
+    });
+
+    document.getElementById('randomBtn').addEventListener('click', ()=>{
+      // 랜덤으로 한두개의 풍미 활성화
+      document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+      const chips = Array.from(document.querySelectorAll('.chip'));
+      const pickCount = Math.random()>0.5?1:2;
+      for(let i=0;i<pickCount;i++){
+        const idx = Math.floor(Math.random()*chips.length);
+        chips[idx].classList.add('active');
+      }
+      // 랜덤 선호 수치
+      document.getElementById('bitterness').value = Math.floor(Math.random()*11);
+      document.getElementById('acidity').value = Math.floor(Math.random()*11);
+      document.getElementById('body').value = Math.floor(Math.random()*11);
+      updateSummary();
+    });
+
+    // 초기 요약
+    updateSummary();
+  </script>
+</body>
+</html>
